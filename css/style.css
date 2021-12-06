@@ -1,35 +1,43 @@
 html {
-  font-size: 10px; }
+  font-size: 10px;
+}
 
 @font-face {
   font-family: VisbyCF_Bold;
-  src: url(../fonts/VisbyCF_Bold.ttf); }
+  src: url(../fonts/VisbyCF_Bold.ttf);
+}
 
 @font-face {
   font-family: VisbyCF_Medim;
-  src: url(../fonts/VisbyCF_Medium.ttf); }
+  src: url(../fonts/VisbyCF_Medium.ttf);
+}
 
 @font-face {
   font-family: VisbyCF_Regular;
-  src: url(../fonts/VisbyCF_Thin.ttf); }
+  src: url(../fonts/VisbyCF_Thin.ttf);
+}
 
 @font-face {
   font-family: Proxima_Nova_Black;
-  src: url(../fonts/Proxima_Nova_Black.ttf); }
+  src: url(../fonts/Proxima_Nova_Black.ttf);
+}
 
 @font-face {
   font-family: VisbyCF_BoldOblique;
-  src: url(../fonts/VisbyCF_BoldOblique.ttf); }
+  src: url(../fonts/VisbyCF_BoldOblique.ttf);
+}
 
 #heroPage {
   background: url(../images/heroBG.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .mainContent .registrationForm {
-  padding-left: 5rem; }
+  padding-left: 5rem;
+}
 
 .mainContent input {
   padding: 1.5rem 2rem;
@@ -39,162 +47,204 @@ html {
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  font-family: VisbyCF_Bold; }
+  font-family: VisbyCF_Bold;
+}
 
 .mainContent .genderSelect {
-  padding-left: 2rem; }
-  .mainContent .genderSelect label {
-    font-size: 2rem;
-    color: #fff;
-    padding-left: 1rem;
-    margin-top: 1rem;
-    cursor: pointer;
-    font-family: VisbyCF_Bold; }
-  .mainContent .genderSelect input {
-    height: 4rem;
-    width: 3rem;
-    background: transparent;
-    border: .2rem solid #fff;
-    cursor: pointer; }
-  .mainContent .genderSelect .fmaleCtrl {
-    margin-left: 7rem; }
+  padding-left: 2rem;
+}
+.mainContent .genderSelect label {
+  font-size: 2rem;
+  color: #fff;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-family: VisbyCF_Bold;
+}
+.mainContent .genderSelect input {
+  height: 4rem;
+  width: 3rem;
+  background: transparent;
+  border: 0.2rem solid #fff;
+  cursor: pointer;
+}
+.mainContent .genderSelect .fmaleCtrl {
+  margin-left: 7rem;
+}
 
 .mainContent .heroImg {
-  margin-top: -25%; }
+  margin-top: -25%;
+}
 
 .inlineDateForm {
   padding-top: 1.5rem;
-  padding-bottom: 1.5rem; }
-  .inlineDateForm * {
-    font-size: 2.2rem; }
-  .inlineDateForm .inlineTitle {
-    color: #fff;
-    padding-top: 1rem;
-    padding-right: 5rem; }
-  .inlineDateForm select,
-  .inlineDateForm option {
-    color: #757575;
-    font-family: VisbyCF_Bold; }
-  .inlineDateForm select {
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    cursor: pointer;
-    margin-right: 1rem; }
-  .inlineDateForm .form-select {
-    display: block;
-    width: 100%;
-    padding: 0.5rem 11rem 0.5rem 1.75rem; }
+  padding-bottom: 1.5rem;
+}
+.inlineDateForm * {
+  font-size: 2.2rem;
+}
+.inlineDateForm .inlineTitle {
+  color: #fff;
+  padding-top: 1rem;
+  padding-right: 5rem;
+}
+.inlineDateForm select,
+.inlineDateForm option {
+  color: #757575;
+  font-family: VisbyCF_Bold;
+}
+.inlineDateForm select {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.inlineDateForm .form-select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 11rem 0.5rem 1.75rem;
+}
 
 .agreementCheck {
-  padding: 2rem 0; }
-  .agreementCheck .agrementText {
-    font-size: 2.2rem;
-    margin-right: 2rem;
-    color: #fff;
-    font-family: VisbyCF_Bold; }
-  .agreementCheck label {
-    font-size: 2.2rem;
-    height: 4rem;
-    width: 4rem;
-    border: .2rem solid #fff;
-    margin-right: 2rem;
-    font-family: VisbyCF_Bold; }
+  padding: 2rem 0;
+}
+.agreementCheck .agrementText {
+  font-size: 2.2rem;
+  margin-right: 2rem;
+  color: #fff;
+  font-family: VisbyCF_Bold;
+}
+.agreementCheck label {
+  font-size: 2.2rem;
+  height: 4rem;
+  width: 4rem;
+  border: 0.2rem solid #fff;
+  margin-right: 2rem;
+  font-family: VisbyCF_Bold;
+}
 
 .bottomText {
-  padding-top: 3rem; }
-  .bottomText p {
-    font-size: 1.69rem;
-    color: #fff;
-    font-weight: 400; }
+  padding-top: 3rem;
+}
+.bottomText p {
+  font-size: 1.69rem;
+  color: #fff;
+  font-weight: 400;
+}
 
 .formWidthCtrl {
-  width: 84%; }
+  width: 84%;
+}
 
 .colorText {
-  color: #DA0926; }
+  color: #da0926;
+}
 
 #secondPage {
   background: url(../images/secondPage.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
-  #secondPage .bigTitle {
-    font-size: 38.54rem;
-    margin-top: -10rem;
-    color: #fff;
-    font-family: Proxima_Nova_Black;
-    font-style: italic; }
-    #secondPage .bigTitle .supText {
-      font-size: 36rem;
-      color: #E00A28; }
-      #secondPage .bigTitle .supText sup {
-        font-size: 3.92rem;
-        top: -6em;
-        left: 2.2em;
-        color: #fff; }
-  #secondPage .subText {
-    font-size: 5rem;
-    color: #fff;
-    margin-top: -5rem;
-    margin-bottom: 2rem;
-    font-family: VisbyCF_BoldOblique; }
+  background-position: center;
+}
+#secondPage .bigTitle {
+  font-size: 38.54rem;
+  margin-top: -10rem;
+  color: #fff;
+  font-family: Proxima_Nova_Black;
+  font-style: italic;
+}
+#secondPage .bigTitle .supText {
+  font-size: 36rem;
+  color: #e00a28;
+}
+#secondPage .bigTitle .supText sup {
+  font-size: 3.92rem;
+  top: -6em;
+  left: 2.2em;
+  color: #fff;
+}
+#secondPage .subText {
+  font-size: 5rem;
+  color: #fff;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+  font-family: VisbyCF_BoldOblique;
+}
 
 .btmTextBtnLike button {
   font-size: 1.92rem;
   color: #fff;
-  border: .2rem solid #fff;
-  padding: .8rem 2rem;
-  font-family: VisbyCF_BoldOblique; }
+  border: 0.2rem solid #fff;
+  padding: 0.8rem 2rem;
+  font-family: VisbyCF_BoldOblique;
+}
 
 .registerNow {
   padding-top: 5rem;
-  padding-bottom: 3rem; }
-  .registerNow h1 {
-    font-size: 5.3rem;
-    color: #fff;
-    font-family: Proxima_Nova_Black; }
-    .registerNow h1 img {
-      margin-top: -1rem; }
-  .registerNow .longSpaceTest {
-    font-size: 2.4rem;
-    color: #fff;
-    padding-top: 1rem;
-    letter-spacing: 1rem;
-    font-family: VisbyCF_Medim; }
+  padding-bottom: 3rem;
+}
+.registerNow h1 {
+  font-size: 5.3rem;
+  color: #fff;
+  font-family: Proxima_Nova_Black;
+}
+.registerNow h1 img {
+  margin-top: -1rem;
+}
+.registerNow .longSpaceTest {
+  font-size: 2.4rem;
+  color: #fff;
+  padding-top: 1rem;
+  letter-spacing: 1rem;
+  font-family: VisbyCF_Medim;
+}
 
 @media screen and (max-width: 767px) {
   .mainContent .registrationForm {
-    padding-left: 1rem; }
+    padding-left: 1rem;
+  }
   .formWidthCtrl {
-    width: 100%; }
+    width: 100%;
+  }
   #secondPage .bigTitle .supText {
-    font-size: 14.5rem; }
+    font-size: 14.5rem;
+  }
   #secondPage .bigTitle {
     font-size: 15rem;
-    margin-top: -5rem; }
+    margin-top: -5rem;
+  }
   #secondPage .bigTitle .supText sup {
     font-size: 3.92rem;
     top: -2.2em;
-    left: 1em; }
+    left: 1em;
+  }
   #secondPage .subText {
     font-size: 5rem;
     margin-top: 0;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+  }
   #secondPage .subText {
-    font-size: 2.4rem; }
+    font-size: 2.4rem;
+  }
   .btmTextBtnLike button {
     font-size: 1.65rem;
-    padding: .8rem 2rem;
+    padding: 0.8rem 2rem;
     width: 100%;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+  }
   .registerNow h1 {
-    font-size: 4rem; }
+    font-size: 4rem;
+  }
   .registerNow .longSpaceTest {
-    font-size: 2rem; } }
+    font-size: 2rem;
+  }
+}
 
 @media screen and (min-width: 1366px) and (max-width: 1600px) {
   #secondPage {
-    background-size: 100% 100%; } }
+    background-size: 100% 100%;
+  }
+}
